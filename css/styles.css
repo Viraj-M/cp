@@ -5,6 +5,10 @@ body {
   flex-direction: column;
 }
 
+p{
+  font-family: 'Baloo Tamma 2', cursive;
+}
+
 #title {
   background-color: #ADD8E6;
   color: #fff;
@@ -68,7 +72,7 @@ h3{
 
 .download-button{
   margin: 5% 3% 5% 0;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto Slab', serif;
   font-weight: bold;
 }
 
@@ -78,4 +82,9 @@ h3{
   width: 60%;
   margin-left: 50px;
   margin-top: 150px;
+}
+
+/* Footer */
+.copyright{
+  font-family: 'Roboto Slab', serif;
 }
