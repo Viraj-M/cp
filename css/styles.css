@@ -3,6 +3,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-image: linear-gradient(blue,pink);
 }
 
 p{
@@ -12,18 +13,18 @@ p{
 #title {
   background-color: #ADD8E6;
   color: #fff;
-  background-image: linear-gradient(blue,red);
+  background-image: linear-gradient(pink,blue);
 }
 
 #features {
   background-color: #0099e0;
   color: #fff;
   padding-left: 12em;
-  background-image: linear-gradient(red,blue);
+  background-image: linear-gradient(pink,blue);
 }
 
 #footer{
-  background-image: linear-gradient(blue,red);
+  background-image: linear-gradient(pink,blue);
   margin-top: auto;
 }
 
@@ -87,4 +88,61 @@ h3{
 /* Footer */
 .copyright{
   font-family: 'Roboto Slab', serif;
+}
+
+/* pricing */
+.pricing-table{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  background-image: linear-gradient(blue,pink);
+}
+
+.col{
+  flex: 25%;
+  padding: 10px;
+  max-width: 320px;
+}
+
+.table{
+  background-color:  #ffffff;
+  font-family:'Montserrat',sans-serif;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 10px #00000070;
+  height:390px;
+}
+
+.table h2{
+  text-transform: uppercase;
+}
+
+.table ul{
+  margin: 0;
+  padding: 0;
+}
+
+.table ul li{
+  padding: 10px 0;
+  list-style: none;
+}
+
+.price{
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.price span{
+  display: block;
+  font-size: 14px;
+}
+
+.table a{
+  text-decoration: none;
+  color: #2c3e50;
+  border: 2px solid #2c3e50;
+  display: block;
+  padding: 10px 0;
+  margin: 10px 0;
 }
